@@ -25,7 +25,6 @@ header {
     width: 100%;
     background-color: #ff6900;
     height: 60px;   
-    color: #ffffff;
     box-shadow: 0 2px #888888;
     position: fixed;
     top: 0;
@@ -47,7 +46,6 @@ header {
 
 .header-banner ul {
     display: flex;
-    align-items: center;
     gap: 10px;
 }
 
@@ -80,7 +78,6 @@ main .container {
 }
 
 .like {
-    color: black;
     background-color: white;
     font-size: 40px;
     padding: 0 15px;
@@ -102,7 +99,6 @@ main .container {
 } 
 
 .tag {
-    text-align: center;
     background-color: #ff0000;
     color: white;
     font-weight: 500;

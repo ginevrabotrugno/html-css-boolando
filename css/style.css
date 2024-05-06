@@ -1,3 +1,4 @@
+/* regole generali */
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +7,31 @@
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+/* regole header */
+
+header {
+    background-color: #ff6900;
+    height: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* DEBUG */
+    background-color: blueviolet;
+    min-height: 100px;
+}
+
+.header-banner {
+    /* DEBUG */
+    width: 20%;
+    min-height: 50px;
+    background-color: #ff6900;
+    border: solid black 2px;
 }

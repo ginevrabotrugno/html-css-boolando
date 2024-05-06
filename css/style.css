@@ -116,6 +116,10 @@ main .container {
     right: 0;
 }
 
+.like:hover {
+    color: #ff0000;
+}
+
 .labels {
     position: absolute;
     bottom: 80px;

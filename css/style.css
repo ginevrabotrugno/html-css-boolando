@@ -9,29 +9,47 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
 /* regole header */
 
 header {
     background-color: #ff6900;
-    height: 100px;
+    height: 60px;   
+    color: #ffffff;
+    box-shadow: 0 2px #888888;
+    
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* DEBUG */
-    background-color: blueviolet;
-    min-height: 100px;
 }
 
-.header-banner {
-    /* DEBUG */
-    width: 20%;
-    min-height: 50px;
-    background-color: #ff6900;
-    border: solid black 2px;
+.header-banner a {
+    color: #ffffff;
+}
+
+.header-banner ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-banner img {
+    width: 100px;
+    margin: 15px;
+}
+
+.icon {
+    padding: 10px;
 }

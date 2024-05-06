@@ -71,38 +71,36 @@ main  {
     clear: both;
 }
 
+.item img {
+    width: 380px;
+}
+
+.item img:hover {
+    width: 380px;
+}
+
 .item img[alt~=item-1]:hover {
     content: url(../img/1b.webp);
-    width: 380px;
 }
 
 .item img[alt~=item-2]:hover {
     content: url(../img/2b.webp);
-    width: 380px;
 }
 
 .item img[alt~=item-3]:hover {
     content: url(../img/3b.webp);
-    width: 380px;
 }
 
 .item img[alt~=item-4]:hover {
     content: url(../img/4b.webp);
-    width: 380px;
 }
 
 .item img[alt~=item-5]:hover {
     content: url(../img/5b.webp);
-    width: 380px;
 }
 
 .item img[alt~=item-6]:hover {
     content: url(../img/6b.webp);
-    width: 380px;
-}
-
-.item img {
-    width: 380px;
 }
 
 .like {

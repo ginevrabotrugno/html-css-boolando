@@ -13,11 +13,10 @@ ul {
     list-style: none;
 }
 
-
 a {
     text-decoration: none;
+    color: #ffffff;
 }
-
 
 /* regole header */
 
@@ -38,10 +37,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header-banner a {
-    color: #ffffff;
+    flex-wrap: wrap;
+    gap: 80px 0;
 }
 
 .header-banner ul {
@@ -64,13 +61,14 @@ main  {
     padding-top: 150px;
 }
 
-main .container {
-    flex-wrap: wrap;
-    gap: 80px 0;
-}
-
 .item {
     position: relative;
+}
+
+.item::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .item img[alt~=item-1]:hover {
@@ -126,12 +124,6 @@ main .container {
     left: 0px;
 }
 
-.labels::after {
-    content: "";
-    display: table;
-    clear: both;
-} 
-
 .tag {
     background-color: #ff0000;
     color: white;
@@ -171,8 +163,7 @@ footer {
     margin-top: 10px;
 }
 
-footer a  {
-    color: #ffffff;
+.credits a  {
     font-size: small;
 }
 
